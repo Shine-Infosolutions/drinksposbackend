@@ -11,6 +11,8 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'http://localhost:5173',
+    'https://drinksposbackend.vercel.app',
+    'https://drinksposfrontend.vercel.app',
 
   ],
   credentials: true,
